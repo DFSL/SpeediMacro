@@ -1,0 +1,29 @@
+{ "name": "speedikon Macro",
+  "scopeName": "source.smcr",
+  "fileTypes": ["mcr"],
+  "patterns": [
+  {  "name": "constant.numeric.source.smcr",
+     "match": "[0-9]+\\.?[0-9]*"
+  },
+  {  "name": "comment.source.smcr",
+     "match": "#.*$"
+  },
+  {  "name": "keyword.control.source.smcr",
+     "match": "(?i)\\b(wenn|dann|sonst|ende|beschreibung|variablen|konstanten|umgebung|fuer|schritt|solange|bis|waehle|aus|fall)\\b"
+  },
+  {  "name": "string.source.smcr",
+     "begin": "\"",
+     "end": "\""
+  },
+  {  "name": "keyword.operator.source.smcr",
+     "match": "(\\+|-|:=|=|<|>|<=|>=|\\/|\\*)"
+  },
+  {  "name": "keyword.operator.source.smcr",
+     "match": "(?i)(und|oder|nicht)"
+  },
+  {  "name": "storage.type.source.smcr",
+     "match": "(?i)(ganzzahl|dezimal|zeichen)"
+  }
+  ],
+  "uuid": "7f58f0d6-e318-491c-a6a0-dfe67fb5d52b"
+}
