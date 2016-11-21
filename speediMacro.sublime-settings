@@ -2,7 +2,7 @@
     "tab_size": 3,
     "translate_tabs_to_spaces": false,
     "highlight_line": true,
-    "color_scheme": "speediMacro.tmTheme",
+    "color_scheme": "Packages/User/speediMacro.tmTheme",
     "extensions": ["mcr"],
     "draw_white_space": "selection",
     "default_encoding": "Western (Windows 1252)"
